@@ -25,9 +25,7 @@ All rights reserved.
 
 ---
 
-**Dinh Tran's Website** is meticulously re-designed and developed by [Dinh Tran], offered under the MIT license.
-
-🌟 Special thanks to Sal 🌟 for their invaluable contributions to this website.
+**DinhWonderSpace's Website** is meticulously re-designed and developed by [Sal], offered under the MIT license.
 
 For inquiries or suggestions, please feel free to contact me.
 
