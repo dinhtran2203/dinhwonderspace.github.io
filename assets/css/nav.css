@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Style the logo */
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Style the main navigation */
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    color: #ffc107;
+}
+
+/* Style the menu icon */
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    margin-left: auto; /* Push the menu icon to the right */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+
+    .nav-menu {
+        display: none; /* Hide the nav menu by default */
+        flex-direction: column; /* Stack menu items vertically */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .nav-menu li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .menu-toggle:checked ~ .nav-menu {
+        display: flex; /* Show the nav menu when checkbox is checked */
+    }
+}
